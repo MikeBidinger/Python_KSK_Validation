@@ -87,8 +87,6 @@ def createNotKSK(folderDestination:str):
 
 def createModuleJSON(folderDestination:str):
     fileExt = '.csv'
-    # listFiles = ['F60_LL_V4_1', 'F60_RL_V4_1', 'F57_LL_V4', 'F57_RL_V4']
-    # listFiles = ['F60_LL_V5_1', 'F60_RL_V5_1', 'F57_LL_V8_2', 'F57_RL_V8_2']
     listFiles = ['F60_LL_V8', 'F60_RL_V8', 'F57_LL_V11', 'F57_RL_V11']
     for fileName in listFiles:
         strData = readTXT(oSettings.sourceFolder + fileName + fileExt)
@@ -109,5 +107,3 @@ def createOptionalMD(folderDestination:str):
     # Write data
     writeJSON(folderDestination + fileName + '.json', dictData)
     print(fileName, len(dictData))
-
-# createModuleJSON(rootFolder)
