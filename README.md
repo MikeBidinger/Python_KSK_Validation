@@ -9,4 +9,4 @@ In a nutshell the validations exists out of:
 -	Multiple step validation
 -	BOM (= Bill Of Material) vs documentation validation
 
-<i>This project includes hashing for sensitive data/info.</i>
+<i> * This project includes hashing for sensitive data/info.</i>
