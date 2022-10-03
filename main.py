@@ -3,13 +3,13 @@ import os
 import re
 
 from settings import Settings
-# from createData import createOrderData
+from createData import createOrderData
 from jsonFunctions import readJSON, writeJSON
 from fileHandling import getTimeStamp, writeResultList, writeResultDict
-# from mail import send_mail
+from mail import send_mail
 
-debug_1 = bool(1)
-debug_2 = bool(1)
+debug_1 = bool(0)
+debug_2 = bool(0)
 
 print('\n')
 
