@@ -8,8 +8,7 @@ from parseFunctions import stringTOlist, listTOdictModules, listTOdictOptionals
 from jsonFunctions import writeJSON
 from mail import send_mail
 
-rootFile = __file__
-rootFolder = rootFile.rsplit('\\', 1)[0] + '\\'
+rootFolder = os.path.join(os.getcwd(), "")
 
 oSettings = Settings()
 
