@@ -13,8 +13,7 @@ debug_2 = bool(0)
 
 print('\n')
 
-rootFile = __file__
-rootFolder = rootFile.rsplit('\\', 1)[0] + '\\'
+rootFolder = os.path.join(os.getcwd(), "")
 
 oSettings = Settings()
 
